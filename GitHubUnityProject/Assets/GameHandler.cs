@@ -47,7 +47,7 @@ public class GameHandler : MonoBehaviour
     public void resetTimer()
     {
         StartCoroutine(delayPress());
-        setGameDuration(60, false);
+        setGameDuration(100, false);
        
     }
 }
